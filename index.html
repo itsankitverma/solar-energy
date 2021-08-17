@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shree Solar Automation</title>
     <link rel="stylesheet" href="style.css"/>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
 </head>
 <body>
     <!-- header -->
-    <header class="text-black bg-white body-font sticky top-0">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <div id="navig" class="text-black bg-white body-font sticky top-0">
+    <section  >
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" >
           <a class="flex title-font font-medium items-center text-black mb-4 md:mb-0">
             <img src="/images/logo.jpg" alt="" width="60" height="60">
             <span class="ml-3 text-xl">Shree Solar Automation</span>
@@ -23,7 +29,8 @@
             <a class="mr-5  hover:text-black" href="#whyus">Why Us</a>
           </nav>  
         </div>
-      </header>
+      </section>
+    </div>
       <!-- header ends -->
       <!-- content starts -->
       <section class="body-font" id="product">
@@ -163,11 +170,10 @@
             </h1>
             <p class="mb-8 leading-relaxed">We at shree solar want to make sure every resident is aware of the benefits of solar and the advantages of solar roof top power plants.
               We being one of the leading EPC service providers for the Solar Power Plant, We provide complete support from concept to commissioning, be it ON-GRID or OFF-GRID and we also undertake Operation and Maintenance activities for all solar power plants.</p>
-              <p class="mb-8 leading-relaxed">With our team of experts who are continuously upgrading their knowledge have been able to provide cost effective solutions with optimum utilization of the resources available.</p>
-             
-              <div class="flex justify-center">
-              <button class="inline-flex text-white bg-indigo-500 transition duration-150 ease-in-out border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Visit Us</button>
-            </div>
+              <p class="mb-8 leading-relaxed">With our team of experts who are continuously upgrading their knowledge have been able to provide cost effective solutions with optimum utilization of the resources available.</p>  
+                <nav class="md:ml-auto flex flex-wrap items-center text-base justify-end cursor-pointer ">
+                  <a class="p-2 text-white bg-indigo-500 rounded-3xl text-lg hidden lg:block hover:shadow-2xl" href="#product">Go To Top</a>
+                </nav>          
           </div>
         </div>
       </section>
